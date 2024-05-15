@@ -10,6 +10,9 @@ const firebaseApp = firebase.initializeApp({
     measurementId: "G-KSD8ZZWH25"
 });
 
+
+
+
 const db = firebase.firestore(); //data base SQL em tempo real
 const auth = firebase.auth(); //sistema de login e autenticação de usuários
 const storage = firebase.storage(); //armazenamento em nuvem e upload de arquivos
