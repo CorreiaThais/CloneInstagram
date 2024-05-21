@@ -110,7 +110,7 @@ function Header(props){
                 alert('Upload realizado com sucesso!');
 
                 document.getElementById('form-upload').reset();
-                fecharModalUpload();j
+                fecharModalUpload();
             })
         })
     }

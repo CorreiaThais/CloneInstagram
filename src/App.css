@@ -196,3 +196,27 @@ body{
     border: 0;
     padding: 8px 10px;
 }
+
+@media screen and (max-width: 800px) {
+    .header__loginForm{
+        display: block;
+    }
+
+    .header__loginForm input[type=text],
+    .header__loginForm input[type=password]{
+        display: block;
+        margin: 3px 0;
+    }
+
+    .header__loginForm input[type=submit]{
+        display: block;
+        float: right;
+        margin: 3px 0;
+    }
+
+    .btn__criarConta{
+        display: block;
+        margin: 3px 0;
+    }
+    
+}

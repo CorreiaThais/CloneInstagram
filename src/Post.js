@@ -12,7 +12,7 @@ function Post(props){
               }))
         })
     }, [])
-    
+
     function comentar(id,e){
         e.preventDefault();
 
